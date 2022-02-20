@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/somedatabase
+    username: root
+    password: root
+  sql:
+    init:
+      mode: always
