@@ -14,7 +14,6 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 @Testcontainers
 class CustomerIntegrationTests {
 
-
     @Container
     private static final MySQLContainer<?> container = new MySQLContainer<>("mysql:latest");
 
