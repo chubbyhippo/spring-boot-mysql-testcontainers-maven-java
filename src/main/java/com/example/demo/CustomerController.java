@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @Slf4j
-class CustomController {
+class CustomerController {
     private final CustomerDao customerDao;
 
     @GetMapping
